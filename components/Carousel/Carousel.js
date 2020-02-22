@@ -17,4 +17,20 @@
     <div class="right-button"> > </div>
   </div>
 */
-function carouselComp() {}
+function carouselComp() {
+  const carouselDiv = document.createElement('div')
+  carouselDiv.classList.add('carousel')
+
+  const leftButton = document.createElement('div')
+  leftButton.classList.add('left-button')
+  carouselDiv.appendChild(leftButton)
+
+  const images = document.createElement('img')
+  images.src = ''
+
+  const rightButton = document.createElement('div')
+  rightButton.classList.add('right-button')
+  carouselDiv.appendChild(rightButton)
+
+  return carouselComp
+}
