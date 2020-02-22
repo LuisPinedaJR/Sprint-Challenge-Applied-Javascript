@@ -17,7 +17,7 @@
     <div class="right-button"> > </div>
   </div>
 */
-function carouselComp() {
+function carouselComp(pics) {
   const carouselDiv = document.createElement('div')
   carouselDiv.classList.add('carousel')
 
@@ -32,5 +32,5 @@ function carouselComp() {
   rightButton.classList.add('right-button')
   carouselDiv.appendChild(rightButton)
 
-  return carouselComp
+  return carouselDiv
 }
